@@ -1,0 +1,580 @@
+body {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(192, 100%, 9%);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0vw
+}
+
+.top-part {
+    display: flex;
+    flex-direction: row;
+    padding: 6vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-part img {
+    width: 28vw;
+    height: auto;
+}
+
+.top-part span {
+    font-family: Open Sans;
+    font-weight: 400;
+    border: 0.2vw solid ;
+    border-radius: 10vw;
+    color: hsl(322, 100%, 66%);
+    padding: 1vw 3vw 1vw 3vw;
+    font-size: 0.65em;
+}
+
+.top-part span:hover, .community button:hover, .ready button:hover, .newsletter button:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    opacity: 30%
+}
+
+.community {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 16vw 8vw 8vw 8vw;
+}
+
+.community h2 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+.community span {
+    font-family: Open Sans;
+    font-weight: 400;
+    padding-bottom: 12vw;
+}
+
+.community button {
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    width: 70%;
+    font-weight: 700;
+    color: hsl(207, 100%, 98%);
+    padding: 3vw 4vw 3vw 4vw;
+    font-size: 0.8em;
+    border-radius: 10vw;
+    text-align: center;
+    box-shadow: 0vw 1.5vw 1vw hsl(180, 1%, 83%);
+}
+
+.communities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.communities h1 {
+    margin: 0vw;
+    padding: 0vw;
+}
+
+.communities-image {
+    padding: 16vw 8vw 16vw 8vw;
+}
+
+.reach1 {
+    display: flex;
+    flex-direction: column;   
+    padding-bottom: 16vw;
+}
+
+.reach1 img {
+    width: 8vw;
+    height: auto;
+    padding: 8vw 0vw 2vw 30vw;
+}
+
+.reach1 h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 3.5em;
+}
+
+.reach1 span {
+    font-family: Open Sans;
+    font-weight: 400vw;
+}
+
+.reach2 {
+    display: flex;
+    flex-direction: column;   
+    padding-bottom: 40vw;
+    background-image: url(images/bg-section-top-mobile-1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.reach2 img {
+    width: 8vw;
+    height: auto;
+    padding: 8vw 0vw 2vw 30vw;
+}
+
+.reach2 h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 3.5em;
+
+}
+
+.reach2 span {
+    font-family: Open Sans;
+    font-weight: 400vw;
+}
+
+.grow {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 16vw;
+    background-color: hsl(207, 100%, 98%);
+}
+
+.grow img {
+    padding: 16vw;
+}
+
+.grow-writing {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.grow h2 { 
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.grow span {
+    font-family: Open Sans;
+    font-weight: 400;
+    padding: 0vw 8vw 0vw 8vw;
+    font-size: 0.95em
+}
+
+.flowing {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 32vw;
+    background-image: url(images/bg-section-bottom-mobile-1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+.flowing img {
+    padding: 16vw;
+    width:32vw
+}
+
+.flowing-writing {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0vw;
+    padding-right: 0vw;
+}
+
+.flowing h2 {
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.flowing span {
+    font-family: Open Sans;
+    font-weight: 400;
+    padding: 0vw 8vw 56vw 8vw;
+    font-size: 0.93em;
+    background-image: url(images/bg-section-top-mobile-2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 0vw;
+    padding-bottom: 28vw;
+    background-color: hsl(207, 100%, 98%);
+}
+
+.users img {
+    padding: 8vw 16vw 16vw 16vw
+}
+
+.users-writing {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.users h2 {
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.users span {
+    font-family: Open Sans;
+    font-weight: 400;
+    padding: 0vw 8vw 0vw 8vw;
+    font-size: 1em;
+}
+
+.ready {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40vw;
+    background-image: url(images/bg-section-bottom-mobile-2.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    justify-content: center
+}
+
+.ready h2 {
+    font-family: Poppins;
+    font-weight: 700;
+    padding: 0vw 16vw 4vw 16vw;
+}
+
+.ready button {
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    width: 50%;
+    font-weight: 700;
+    color: hsl(207, 100%, 98%);
+    padding: 3vw 4vw 3vw 4vw;
+    font-size: 0.8em;
+    border-radius: 10vw;
+    box-shadow: 0vw 1.5vw 1vw hsl(180, 1%, 83%);
+}
+
+.footer-bg {
+    background-image: url(images/bg-footer-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    padding-bottom: 56vw;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color:hsl(0, 0%, 100%);
+    font-family: Open Sans;
+    display: flex;
+    flex-direction: column;
+    margin-top: -1vw;
+    padding: 8vw;
+    font-size: 1.05em;
+}
+
+.newsletter h2 {
+    font-weight: 700;
+}
+
+.newsletter input {
+    width: 100%;
+    height: 10vw;
+    border: none;
+    border-radius: 1vw;
+    margin-top: 8vw;
+    margin-bottom: 4vw;
+}
+
+.newsletter button {
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    width: 40%;
+    font-weight: 700;
+    color: hsl(207, 100%, 98%);
+    padding: 3vw 2vw 3vw 2vw;
+    border-radius: 1vw;
+}
+
+#button {
+    display: flex;
+    justify-content: right;
+    margin-right: -1vw
+}
+
+.logo {
+    padding-bottom: 4vw;
+}
+
+.logo img {
+    filter: contrast(0%) saturate(1000%) brightness(1000%);
+    padding-top: 28vw;
+    padding-bottom: 4vw;
+    width: 60%
+}
+
+.logo span {
+    font-weight: 600;
+}
+
+.icon {
+    font-size: 1.4em;
+    margin-top: 1.5vw
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 4vw;
+    padding-bottom: 1vw
+}
+
+.icon-writing {
+    padding-left: 4vw;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1vw;
+    padding-bottom: 8vw
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.socials span {
+    padding-right: 3vw;
+    font-size: 1.5em
+}
+
+@media screen and (min-width: 768px) {
+    .top-part img {
+        width: 20vw;
+    }
+
+    .community h2 {
+        font-size: 2em;
+    }
+
+    .community span {
+        padding: 4vw 16vw 4vw 16vw;
+    }
+
+    .community button {
+        width: 50%
+    }
+
+    .communities-image {
+        padding: 0vw 16vw 0vw 16vw
+    }
+    
+    .reach {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        padding-bottom: 16vw;
+        background-image: url(images/bg-section-top-desktop-1.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+    }
+
+    .reach img {
+        padding: 12vw 0vw 0vw 0vw;
+        width: 4vw;
+    }
+
+    .reach1 {
+        padding-bottom: 0vw;
+    }
+
+    .reach2 {
+        padding-bottom: 0vw;
+        background-image: none;
+    }
+
+    .grow {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 4vw 8vw 4vw 8vw;
+    }
+
+    .grow-writing {
+        text-align: left;
+        padding: 4vw 0vw 0vw 0vw;
+    }
+
+    .grow img {
+        padding: 0vw 0vw 0vw 8vw;
+        width: 32vw;
+    }
+
+    .grow span {
+        padding: 0vw;
+        font-size: 0.9em
+    }
+
+    .flowing {
+        padding: 20vw 0vw 0vw 0vw;
+        background-image: url(images/bg-section-bottom-desktop-1.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+    }
+
+    .bg {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-image: url(images/bg-section-top-desktop-2.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        padding: 0vw 8vw 20vw 8vw
+    }
+
+    .flowing-writing {
+        text-align: left;
+        padding-top: 4vw;
+    }
+
+    .flowing img {
+        padding: 0vw 8vw 0vw 0vw;
+        width: 32vw;
+    }
+
+    .flowing span {
+        padding: 0vw;
+        font-size: 0.75em;
+        background: none;
+    }
+
+    .users {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 8vw 8vw 4vw 8vw
+    }
+
+    .users-writing {
+        text-align: left;
+        padding-top: 4vw;
+    }
+
+    .users img {
+        padding: 0vw 0vw 0vw 8vw;
+        width: 32vw;
+    }
+
+    .users span {
+        padding: 0vw;
+        font-size: 0.75em
+    }
+
+    .ready {
+        background-image: url(images/bg-section-bottom-desktop-2.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+        padding-top: 20vw;
+    }
+
+    .ready h2 {
+        padding-bottom: 0vw;
+    }
+
+    .footer-bg {
+        background-image: url(images/bg-footer-top-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        padding-bottom: 24vw;
+    }
+
+    .footer-bg button {
+        width: 30%;
+        padding: 2vw 3vw 2vw 3vw
+    }
+
+    footer {
+        margin-top: -.25vw;
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 0.7em;
+    }
+
+    .address {
+        padding-right: 12vw;
+        padding-bottom: 0vw;
+    }
+
+    .logo {
+        padding-bottom: 0vw;
+    }
+
+    .logo img {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+
+    .newsletter {
+        padding-left: 12vw
+    }
+
+    .phone {
+        padding-top: 1vw;
+    }
+
+    .mail {
+        padding-top: 0vw;
+        padding-bottom: 4vw;
+    }
+
+    .icon {
+        margin-top: 0.5vw;
+    }
+
+    .icon-writing {
+        padding-left: 1vw;
+    }
+
+    .socials {
+        font-size: 1.1em;
+    }
+
+    .socials span {
+        padding-right: 1.5vw;
+    }
+
+    .newsletter input {
+        height: 15%;
+        margin: 2vw 0vw 2vw 0vw;
+    }
+
+     #button button {
+        padding: 1vw 2vw 1vw 2vw;
+        text-align: center
+    }
+}    
